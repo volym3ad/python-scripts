@@ -1,5 +1,4 @@
 # python-scripts
-python
 
 pdf.py - converts text to a pdf file
 
