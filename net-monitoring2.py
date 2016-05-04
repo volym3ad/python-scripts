@@ -56,6 +56,6 @@ if __name__ == '__main__':
 
 	(options, args) = parser.parse_args()
 	print "options: %s, args: %s" % (options, args)
-	check = check_server(options.address, options.port, options.resource)
+	check = check_webserver(options.address, options.port, options.resource)
 	print "check_webserver returned %s" % check
 	sys.exit(not check)
